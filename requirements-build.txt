@@ -1,0 +1,2 @@
+# Solo necesario para empaquetar; no para ejecutar la interfaz.
+pyinstaller==6.22.3

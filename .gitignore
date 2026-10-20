@@ -1,0 +1,47 @@
+# Datos locales y recursos de impresión privados
+generados/
+qa/
+test-results/
+plantillas/*
+!plantillas/README.md
+fuentes/*
+!fuentes/README.md
+assets/*
+!assets/README.md
+*.doc
+*.docx
+*.pdf
+*.ttf
+*.TTF
+*.otf
+*.csv
+*.xlsx
+
+# Binarios y paquetes que pueden contener recursos privados
+*.exe
+*.dll
+*.pyd
+*.zip
+*.rar
+*.7z
+build/
+dist/
+Portatil/
+.portable*/
+.launcher*/
+repositorio-publico/
+
+# Entorno, cachés y credenciales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build-env/
+.env
+.env.*
+*.log
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+~$*
